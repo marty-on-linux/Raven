@@ -40,7 +40,7 @@ public class TargetStrafe extends Module {
     public static TickSetting speedOnly;
     public static TickSetting switchOnCollide;
     public static TickSetting renderPath;
-    public static ComboSetting targetMode;
+    public static ComboSetting<TargetStrafeMode> targetMode;
     
     private EntityLivingBase target = null;
     private float targetYaw = Float.NaN;

@@ -44,7 +44,7 @@ public class AimAssist extends Module {
     public static SliderSetting pitchOffSet;
     
     // Mode settings
-    public static ComboSetting aimMode;
+    public static ComboSetting<AimMode> aimMode;
     
     // Conditions
     public static TickSetting clickAim;

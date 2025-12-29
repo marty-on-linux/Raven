@@ -1,0 +1,41 @@
+# Gradle
+.gradle/
+build/
+out/
+run/
+**/build/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Logs / dumps
+*.log
+hs_err_pid*
+replay_pid*
+
+# Generated / compiled
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+
+# Minecraft / mod workspace extras
+crash-reports/
+saves/
+logs/
+
+# Local scripts / overrides
+local.properties
+

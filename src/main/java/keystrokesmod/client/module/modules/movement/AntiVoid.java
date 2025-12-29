@@ -32,7 +32,7 @@ import net.minecraftforge.fml.common.gameevent.TickEvent;
  */
 public class AntiVoid extends Module {
     // Mode settings
-    public static ComboSetting mode;
+    public static ComboSetting<AntiVoidMode> mode;
     
     // Detection settings
     public static SliderSetting voidDistance;

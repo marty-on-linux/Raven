@@ -21,7 +21,7 @@ import org.lwjgl.input.Keyboard;
  */
 public class Velocity extends Module {
     // Main velocity settings
-    public static ComboSetting velocityMode;
+    public static ComboSetting<VelocityMode> velocityMode;
     public static SliderSetting horizontal, vertical, chance;
     public static TickSetting onlyWhileTargeting, disableWhileHoldingS, fakeCheck;
     
@@ -40,7 +40,7 @@ public class Velocity extends Module {
     
     // Projectile settings
     public static TickSetting differentVeloProjectiles;
-    public static ComboSetting projectilesMode;
+    public static ComboSetting<ProjectileMode> projectilesMode;
     public static SliderSetting horizontalProjectiles, verticalProjectiles, chanceProjectiles, distanceProjectiles;
     
     // Debug

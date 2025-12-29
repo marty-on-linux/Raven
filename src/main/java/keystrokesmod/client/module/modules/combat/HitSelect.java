@@ -26,7 +26,7 @@ import net.minecraftforge.event.entity.living.LivingEvent.LivingUpdateEvent;
  */
 public class HitSelect extends Module {
     
-    public static ComboSetting mode;
+    public static ComboSetting<HitSelectMode> mode;
     public static SliderSetting minDistance;
     public static SliderSetting maxAngle;
     public static TickSetting showStats;

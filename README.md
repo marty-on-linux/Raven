@@ -26,6 +26,10 @@ Original Raven B++ Discord:
 
 Releases are auto-published on every push; the asset `OpenMyaven-latest.jar` always points to the newest build.
 
+## Development
+- Use `./gradlew build` (or `gradlew.bat build` on Windows) to produce the jar in `build/libs/`.
+- Git ignores build outputs and IDE files via `.gitignore` in the repo root.
+
 
 ## How to build it yourself
 1. [Get](https://gradle.org/next-steps/?version=2.7&format=bin) and [install](https://docs.gradle.org/current/userguide/installation.html) gradle.

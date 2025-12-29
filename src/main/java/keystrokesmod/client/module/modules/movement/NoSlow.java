@@ -22,7 +22,7 @@ import net.minecraftforge.event.entity.living.LivingEvent.LivingUpdateEvent;
  */
 public class NoSlow extends Module {
     // Mode settings
-    public static ComboSetting mode;
+    public static ComboSetting<NoSlowMode> mode;
     
     // Sword settings
     public static TickSetting swordNoSlow;
