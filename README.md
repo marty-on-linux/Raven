@@ -1,8 +1,6 @@
-# OpenMyaven
+# Myauven++
 
-**OpenMyaven** is a PvP and utility mod for Minecraft 1.8.x — a fusion of [OpenMyau](https://github.com/60124808866/OpenMyau) and the original **Raven B++**.
-
-This client combines the best of both worlds: the enhanced combat modules and bypasses from OpenMyau with the solid foundation and utilities of Raven B++. It supports Forge and Feather, adding quality of life improvements, bug fixes, advanced PvP features, and so much more.
+**Myauven++** is a PvP and utility mod for Minecraft 1.8.9 — a fusion of [OpenMyau](https://github.com/60124808866/OpenMyau) and the original **Raven B++**.
 
 ---
 
