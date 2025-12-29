@@ -1,7 +1,7 @@
 # HUD Improvements Summary
 
 ## Overview
-This document outlines all the improvements and new features added to the Raven client's HUD system.
+This document outlines all the improvements and new features added to the Myauven++ client's HUD system.
 
 ## Main HUD Module Enhancements (HUD.java)
 

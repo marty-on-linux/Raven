@@ -33,16 +33,16 @@ jobs:
         run: |
           mkdir -p release
           LATEST_JAR=$(ls -t build/libs/*.jar | head -n 1)
-          cp "$LATEST_JAR" release/OpenMyaven-latest.jar
+          cp "$LATEST_JAR" release/Myauven-plus-plus-latest.jar
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: build-${{ github.run_number }}
-          name: OpenMyaven build ${{ github.run_number }}
+          name: Myauven++ build ${{ github.run_number }}
           draft: false
           prerelease: false
           generate_release_notes: true
-          files: release/OpenMyaven-latest.jar
+          files: release/Myauven-plus-plus-latest.jar
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
