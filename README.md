@@ -1,9 +1,12 @@
-New repository after the last one was taken down.
+# OpenMyaven
 
-# Raven B++
-Raven b++ is a pvp and utility mod for minecraft 1.8.x. It supports Forge and Feather adding quality of life improvements, bug fixes, and so much more.<br>
+**OpenMyaven** is a PvP and utility mod for Minecraft 1.8.x — a fusion of [OpenMyau](https://github.com/60124808866/OpenMyau) and the original **Raven B++**.
 
-Offical Discord of Raven b++:
+This client combines the best of both worlds: the enhanced combat modules and bypasses from OpenMyau with the solid foundation and utilities of Raven B++. It supports Forge and Feather, adding quality of life improvements, bug fixes, advanced PvP features, and so much more.
+
+---
+
+Original Raven B++ Discord:
 [https://discord.gg/UqJ8ngteud](https://discord.gg/UqJ8ngteud)
 
 
